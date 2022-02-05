@@ -1,0 +1,2 @@
+[20-Apr-2021 03:10:55 Africa/Cairo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/hetdtypx/public_html/app/Notifications/RegisterNotification.php on line 4
+[20-Apr-2021 03:18:37 Africa/Cairo] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/hetdtypx/public_html/app/Notifications/RegisterNotification.php on line 4

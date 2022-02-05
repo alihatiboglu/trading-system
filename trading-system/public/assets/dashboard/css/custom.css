@@ -1,0 +1,131 @@
+.content-wrapper{
+    background: #FFF !important;
+}
+[class*=sidebar-dark-] {
+    background-color: #1d1d1d;
+}
+.nav-sidebar>.nav-item,.nav-sidebar>.nav-item a {
+    background-image: linear-gradient(to bottom,rgba(37,40,66,0),#1d1d1d 98%);
+}
+.nav-sidebar>.nav-item:hover>a,.nav-sidebar>.nav-item.active a{
+    background-color: #1d1d1d !important;
+}
+.nav-sidebar .nav-item>.nav-link {
+    padding: 14px 0px;
+}
+.card {
+    background: #FFF;
+    border: none;
+    box-shadow: 0 0 10px 0 rgb(20 24 48 / 8%);
+    border-radius: 10px;
+    padding: 17px 33px;
+    font-weight: 400;
+}
+.card-body {
+    padding: 15px 0 20px;
+}
+.nav-sidebar .nav-icon{
+    color: #0ba026;
+}
+.navbar-white {
+    border-bottom-color: rgba(255,255,255,.2)!important;
+    background: #1d1d1d;
+}
+.cl-green{
+    color: #0ba026;
+}
+.bg-green{
+    background: #0ba026;
+}
+.cl-orange{
+    color: #f0ad4e;
+}
+.main-header, .main-header a{
+    color: #FFF !important;
+}
+a.dropdown-item{
+    color: #000 !important;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #0ba026;
+}
+.main-header i{
+    font-size: 20px;
+}
+.h1, .h2, h1, h2 {
+    font-size: 40px !important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #0d141e;
+    font-weight: 400;
+}
+.content-header h1 {
+    font-size: 35px !important;
+    font-weight: 600;
+    margin: 15px 0 10px 0;
+}
+.card-title{
+    font-size: 26px;
+    font-weight: 500;
+}
+.card-header{
+    padding: 0;
+    border-bottom: none !important;
+}
+.btn{
+    border-radius: 17px !important;
+    padding: 4px 25px;
+}
+.help-block{
+    color: red;
+}
+.cl-blue {
+    color: #77C7F1!important;
+}
+.modal-title {
+    margin: auto;
+}
+.modal-header .close, .modal-header .mailbox-attachment-close {
+    margin: -1rem 0rem -2rem 2px;
+}
+.modal-header {
+    padding: 15px 20px;
+    background: #f1f3f2;
+    position: relative;
+    color: #292a2f;
+    border: 0;
+}
+[class*=sidebar-dark-] {
+    background-color: #1d1d1d;
+}
+
+
+
+.mce-container-body.mce-abs-layout {
+    height: 400px !important;
+}
+
+.pricing-wrapper {
+    background: #1d1d1d;
+    padding: 15px;
+    text-align: center;
+}
+.fontali, .colorfontali2 {
+    line-break: anywhere;
+}
+.price {
+    margin-top: 45px;
+    color: #0ba026;
+}
+.pricing-header h2 {
+    font-size: 20px !important;
+    margin-top: 25px;
+    line-height: 1.7rem;
+    color: #e7e7e7;
+}
+.pricing-header i {
+    font-size: 35px !important;
+    color: #FFF;
+}

@@ -1,0 +1,161 @@
+
+/*!**/
+/*==============================*/
+/*RIGHT TO LEFT - RTL*/
+/*==============================*/
+/**!*/
+/*body{*/
+/*font-family: 'Lalezar', cursive  !important;*/
+/*}*/
+/*header a{*/
+/*    font-family: 'Lalezar', cursive  !important;*/
+/*    font-size: 14px;*/
+/*}*/
+/*h2,*/
+/*h3,*/
+/*h1,*/
+/*h4,*/
+/*h5,*/
+/*h6,*/
+/*related-title,*/
+/*texttitle-home-3,*/
+/*p*/
+/*{*/
+/*   font-family: 'Lalezar', cursive  !important;*/
+/*}*/
+
+/*.uk-navbar-nav a{*/
+/* font-family: 'Lalezar', cursive  !important;*/
+/*}*/
+/*.uk-button{*/
+/*  font-family: 'Lalezar', cursive  !important;*/
+/*}*/
+
+/*.sidebar .nav-item .nav-link{*/
+/*  font-family: 'Lalezar', cursive  !important;*/
+/*}*/
+/*.social{*/
+/*  float: left;*/
+/*}*/
+/*.video-title a{*/
+/*  font-family: 'Lalezar', cursive  !important;*/
+/*}*/
+/*.channels-title a{*/
+/*  font-family: 'Lalezar', cursive  !important;*/
+/*}*/
+/*.box{*/
+/*  text-align: right;*/
+
+/*}*/
+/*.single-video-author img{*/
+/*  float: right;*/
+/*  margin: 0 0px 1px 10px;*/
+/*}*/
+/*.video-card-body{*/
+/*  text-align: right;*/
+/*}*/
+/*.main-title{*/
+/*  text-align: right;*/
+/*}*/
+/*.float-right {*/
+/*    float: left !important;*/
+/*}*/
+/*.btn-dow {*/
+/*    float: left;*/
+/*    position: relative;*/
+/*    bottom: 55px;*/
+/*}*/
+/*.card-header__title{*/
+/*  font-family: 'Lalezar', cursive  !important;*/
+/*  font-weight: 300;*/
+/*}*/
+
+h1,h2,h3,h4,h5,h6,input,button,select,tspan, textarea,ul.navbar-nav a,.footer .top-footer .menu ul li a,p,
+.breadcrumb li, .breadcrumb a,.contacts span,.btn,label,.text-info,ul li a,ul li,th,blockquote,.facts-footer > div span,
+.rtl
+{
+    font-family: 'sky', sans-serif !important;
+    /*font-weight: 900;*/
+    letter-spacing: 0 !important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'sky', sans-serif !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'sky', sans-serif !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font-family: 'sky', sans-serif !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-family: 'sky', sans-serif !important;
+}
+html{
+    direction: rtl;
+}
+.carousel{
+    direction: ltr;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: right;
+}
+.form-control {
+    padding: 0px 20px 4px 0px !important;
+    text-align: right;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    margin-left: 0px;
+    margin-right: -18px;
+}
+p{
+    margin-top: 20px !important;
+}
+.title-head{
+    margin-top: 20px !important;
+}
+.contact-page-info .contact-info-box .contact-info-box-content {
+    padding-left: 0px;
+    padding-right: 60px;
+}
+.pull-right {
+    float: left!important;
+}
+.pull-left {
+    float: right!important;
+}
+.checkbox label, .radio label ,.checkbox-inline, .radio-inline{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.text-plus {
+    font-family: 'sky', sans-serif !important;
+}
+.sidebar ul.nav-tabs li {
+    text-align: right;
+}
+.widget.recent-posts .posts-thumb {
+    margin-left: 15px;
+}
+.dataTables_filter {
+    text-align: left;
+}
+.dataTable th,.dropdown-menu a{
+    text-align: right;
+}
+
+.pricing-header h2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+.Open-account-btn{
+    margin-right: 0px;
+}
+.service-box img {
+    float: right;
+}
+.service-box .service-box-content {
+    padding-left: 0px;
+    padding-right: 68px;
+}

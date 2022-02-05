@@ -1,0 +1,15 @@
+.nav-sidebar .nav-icon {
+    color: #0ba026;
+}
+.cl-green {
+    color: #0ba026;
+}
+
+.mce-container-body.mce-abs-layout {
+    height: 400px !important;
+}
+.notify_dropdown{
+	height: 350px;
+	overflow: auto;
+	font-size: 13px;
+}

@@ -1,0 +1,1824 @@
+.formation {
+    width: 330px;
+    height: 484px;
+    position: relative;
+    background: url('../img/formation.jpg') no-repeat center;
+    background-size: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 10px
+}
+
+.formation .teamA, .formation .teamB {
+    position: absolute;
+    width: 310px;
+    height: 222px;
+    right: 10px;
+    padding: 0
+}
+
+.formation .teamA {
+    top: 10px
+}
+
+.formation .teamB {
+    bottom: -10px
+}
+
+.formation .teamBG {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 80px;
+    opacity: .15
+}
+
+.formation .player {
+    position: absolute;
+    width: 24px
+}
+
+.formation .icon-player:before {
+    content: "\f2c0";
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 24px;
+    line-height: 1;
+    position: relative;
+    z-index: 2
+}
+
+.formation .teamA .icon-player:before {
+    color: #ffeb3b
+}
+
+.formation .teamB .icon-player:before {
+    color: #ff9800
+}
+
+.formation .icon-player:after {
+    content: "";
+    width: 24px;
+    height: 3px;
+    background: #000;
+    filter: blur(3px);
+    position: absolute;
+    left: 0;
+    top: 20px;
+    z-index: 1
+}
+
+.formation .player p {
+    width: 100%;
+    display: inline-block;
+    float: right;
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1;
+    margin-top: 2px
+}
+
+.ManofMatch h3 {
+    display: inline-block;
+    width: 100%;
+    padding: 8px 10px;
+    background: #e8e8e8;
+    color: #000;
+    font-family: droidBold, Arial;
+    text-align: center;
+    font-size: 18px
+}
+
+.ManofMatch {
+    width: 330px;
+    height: 240px;
+    max-height: 300px;
+    position: absolute;
+    top: 678px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.ManofMatch .man-matchClip {
+    width: 100%;
+    height: 120px;
+    background: #f2f2f2;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    float: right
+}
+
+.ManofMatch .man-matchClip .man-matchImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+    margin: 0;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    margin-left: 10px
+}
+
+.ManofMatch .man-matchClip .man-matchImage img {
+    width: auto;
+    height: 140px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%)
+}
+
+.ManofMatch .man-matchClip .manOfCont {
+    display: inline-block;
+    float: right;
+    width: calc(100% - 110px)
+}
+
+.ManofMatch .man-matchClip .manOfCont .manOfImgCont {
+    float: right
+}
+
+.ManofMatch .man-matchClip .manOfCont img {
+    width: 46px
+}
+
+.ManofMatch .man-matchClip .manOfCont .man-matchData {
+    float: left;
+    width: 100%
+}
+
+.ManofMatch .man-matchClip .manOfCont .man-matchIcn {
+    margin-top: 15px;
+    float: right;
+    margin-left: 5px
+}
+
+.ManofMatch .man-matchClip .manOfCont .man-matchTxt {
+    line-height: 3;
+    display: block;
+    color: #000;
+    font-family: droidLight, arial;
+    font-size: 12px
+}
+
+.ManofMatch .man-matchClip .manOfCont .man-matchName {
+    color: #0277bd;
+    font-family: droidBold, Arial;
+    font-size: 16px;
+    line-height: 5px;
+    display: inline-block;
+    width: 100%
+}
+
+.ManofMatch .man-matchClip .manOfCont .voting {
+    text-align: center;
+    margin-top: 20px;
+    font-family: droidBold, Arial;
+    font-size: 12px;
+    color: #000;
+    display: inline-block
+}
+
+.ManofMatch .man-matchClip .manOfCont .voting span {
+    margin-right: 5px;
+    font-family: droidLight, arial;
+    font-size: 14px
+}
+
+.formation .teamA.form442 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form442 .player.p02 {
+    top: calc(28% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamA.form442 .player.p03 {
+    top: calc(28% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form442 .player.p04 {
+    top: calc(28% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form442 .player.p05 {
+    top: calc(28% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamA.form442 .player.p06 {
+    top: calc(56% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamA.form442 .player.p07 {
+    top: calc(56% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form442 .player.p08 {
+    top: calc(56% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form442 .player.p09 {
+    top: calc(56% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamA.form442 .player.p10 {
+    top: calc(84% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form442 .player.p11 {
+    top: calc(84% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form442 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form442 .player.p02 {
+    bottom: calc(28% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamB.form442 .player.p03 {
+    bottom: calc(28% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form442 .player.p04 {
+    bottom: calc(28% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form442 .player.p05 {
+    bottom: calc(28% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamB.form442 .player.p06 {
+    bottom: calc(56% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamB.form442 .player.p07 {
+    bottom: calc(56% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form442 .player.p08 {
+    bottom: calc(56% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form442 .player.p09 {
+    bottom: calc(56% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamB.form442 .player.p10 {
+    bottom: calc(84% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form442 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form433 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form433 .player.p02 {
+    top: calc(28% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamA.form433 .player.p03 {
+    top: calc(28% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form433 .player.p04 {
+    top: calc(28% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form433 .player.p05 {
+    top: calc(28% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamA.form433 .player.p06 {
+    top: calc(56% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form433 .player.p07 {
+    top: calc(56% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form433 .player.p08 {
+    top: calc(56% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamA.form433 .player.p09 {
+    top: calc(84% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form433 .player.p10 {
+    top: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form433 .player.p11 {
+    top: calc(84% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form433 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form433 .player.p02 {
+    bottom: calc(28% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamB.form433 .player.p03 {
+    bottom: calc(28% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form433 .player.p04 {
+    bottom: calc(28% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form433 .player.p05 {
+    bottom: calc(28% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamB.form433 .player.p06 {
+    bottom: calc(56% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form433 .player.p07 {
+    bottom: calc(56% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form433 .player.p08 {
+    bottom: calc(56% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamB.form433 .player.p09 {
+    bottom: calc(84% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form433 .player.p10 {
+    bottom: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form433 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form343 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form343 .player.p02 {
+    top: calc(28% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form343 .player.p03 {
+    top: calc(28% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form343 .player.p04 {
+    top: calc(28% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamA.form343 .player.p05 {
+    top: calc(56% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamA.form343 .player.p06 {
+    top: calc(56% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form343 .player.p07 {
+    top: calc(56% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form343 .player.p08 {
+    top: calc(56% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamA.form343 .player.p09 {
+    top: calc(84% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form343 .player.p10 {
+    top: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form343 .player.p11 {
+    top: calc(84% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form343 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form343 .player.p02 {
+    bottom: calc(28% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form343 .player.p03 {
+    bottom: calc(28% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form343 .player.p04 {
+    bottom: calc(28% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamB.form343 .player.p05 {
+    bottom: calc(56% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamB.form343 .player.p06 {
+    bottom: calc(56% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form343 .player.p07 {
+    bottom: calc(56% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form343 .player.p08 {
+    bottom: calc(56% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamB.form343 .player.p09 {
+    bottom: calc(84% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form343 .player.p10 {
+    bottom: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form343 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form352 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form352 .player.p02 {
+    top: calc(28% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form352 .player.p03 {
+    top: calc(28% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form352 .player.p04 {
+    top: calc(28% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamA.form352 .player.p05 {
+    top: calc(56% - 5px);
+    left: calc(10% - 12px)
+}
+
+.formation .teamA.form352 .player.p06 {
+    top: calc(56% - 5px);
+    left: calc(30% - 12px)
+}
+
+.formation .teamA.form352 .player.p07 {
+    top: calc(56% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form352 .player.p08 {
+    top: calc(56% - 5px);
+    right: calc(30% - 12px)
+}
+
+.formation .teamA.form352 .player.p09 {
+    top: calc(56% - 5px);
+    right: calc(10% - 12px)
+}
+
+.formation .teamA.form352 .player.p10 {
+    top: calc(84% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form352 .player.p11 {
+    top: calc(84% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form352 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form352 .player.p02 {
+    bottom: calc(28% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form352 .player.p03 {
+    bottom: calc(28% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form352 .player.p04 {
+    bottom: calc(28% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamB.form352 .player.p05 {
+    bottom: calc(56% - 5px);
+    right: calc(10% - 12px)
+}
+
+.formation .teamB.form352 .player.p06 {
+    bottom: calc(56% - 5px);
+    right: calc(30% - 12px)
+}
+
+.formation .teamB.form352 .player.p07 {
+    bottom: calc(56% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form352 .player.p08 {
+    bottom: calc(56% - 5px);
+    left: calc(30% - 12px)
+}
+
+.formation .teamB.form352 .player.p09 {
+    bottom: calc(56% - 5px);
+    left: calc(10% - 12px)
+}
+
+.formation .teamB.form352 .player.p10 {
+    bottom: calc(84% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form352 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form532 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form532 .player.p02 {
+    top: calc(28% - 5px);
+    left: calc(10% - 12px)
+}
+
+.formation .teamA.form532 .player.p03 {
+    top: calc(28% - 5px);
+    left: calc(30% - 12px)
+}
+
+.formation .teamA.form532 .player.p04 {
+    top: calc(28% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form532 .player.p05 {
+    top: calc(28% - 5px);
+    right: calc(30% - 12px)
+}
+
+.formation .teamA.form532 .player.p06 {
+    top: calc(28% - 5px);
+    right: calc(10% - 12px)
+}
+
+.formation .teamA.form532 .player.p07 {
+    top: calc(56% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form532 .player.p08 {
+    top: calc(56% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form532 .player.p09 {
+    top: calc(56% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamA.form532 .player.p10 {
+    top: calc(84% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form532 .player.p11 {
+    top: calc(84% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form532 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form532 .player.p02 {
+    bottom: calc(28% - 5px);
+    right: calc(10% - 12px)
+}
+
+.formation .teamB.form532 .player.p03 {
+    bottom: calc(28% - 5px);
+    right: calc(30% - 12px)
+}
+
+.formation .teamB.form532 .player.p04 {
+    bottom: calc(28% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form532 .player.p05 {
+    bottom: calc(28% - 5px);
+    left: calc(30% - 12px)
+}
+
+.formation .teamB.form532 .player.p06 {
+    bottom: calc(28% - 5px);
+    left: calc(10% - 12px)
+}
+
+.formation .teamB.form532 .player.p07 {
+    bottom: calc(56% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form532 .player.p08 {
+    bottom: calc(56% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form532 .player.p09 {
+    bottom: calc(56% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamB.form532 .player.p10 {
+    bottom: calc(84% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form532 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form541 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form541 .player.p02 {
+    top: calc(28% - 5px);
+    left: calc(10% - 12px)
+}
+
+.formation .teamA.form541 .player.p03 {
+    top: calc(28% - 5px);
+    left: calc(30% - 12px)
+}
+
+.formation .teamA.form541 .player.p04 {
+    top: calc(28% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form541 .player.p05 {
+    top: calc(28% - 5px);
+    right: calc(30% - 12px)
+}
+
+.formation .teamA.form541 .player.p06 {
+    top: calc(28% - 5px);
+    right: calc(10% - 12px)
+}
+
+.formation .teamA.form541 .player.p07 {
+    top: calc(56% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamA.form541 .player.p08 {
+    top: calc(56% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form541 .player.p09 {
+    top: calc(56% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form541 .player.p10 {
+    top: calc(56% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamA.form541 .player.p11 {
+    top: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form541 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form541 .player.p02 {
+    bottom: calc(28% - 5px);
+    right: calc(10% - 12px)
+}
+
+.formation .teamB.form541 .player.p03 {
+    bottom: calc(28% - 5px);
+    right: calc(30% - 12px)
+}
+
+.formation .teamB.form541 .player.p04 {
+    bottom: calc(28% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form541 .player.p05 {
+    bottom: calc(28% - 5px);
+    left: calc(30% - 12px)
+}
+
+.formation .teamB.form541 .player.p06 {
+    bottom: calc(28% - 5px);
+    left: calc(10% - 12px)
+}
+
+.formation .teamB.form541 .player.p07 {
+    bottom: calc(56% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamB.form541 .player.p08 {
+    bottom: calc(56% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form541 .player.p09 {
+    bottom: calc(56% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form541 .player.p10 {
+    bottom: calc(56% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamB.form541 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form451 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form451 .player.p02 {
+    top: calc(28% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamA.form451 .player.p03 {
+    top: calc(28% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form451 .player.p04 {
+    top: calc(28% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form451 .player.p05 {
+    top: calc(28% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamA.form451 .player.p06 {
+    top: calc(56% - 5px);
+    left: calc(10% - 12px)
+}
+
+.formation .teamA.form451 .player.p07 {
+    top: calc(56% - 5px);
+    left: calc(30% - 12px)
+}
+
+.formation .teamA.form451 .player.p08 {
+    top: calc(56% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form451 .player.p09 {
+    top: calc(56% - 5px);
+    right: calc(30% - 12px)
+}
+
+.formation .teamA.form451 .player.p10 {
+    top: calc(56% - 5px);
+    right: calc(10% - 12px)
+}
+
+.formation .teamA.form451 .player.p11 {
+    top: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form451 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form451 .player.p02 {
+    bottom: calc(28% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamB.form451 .player.p03 {
+    bottom: calc(28% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form451 .player.p04 {
+    bottom: calc(28% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form451 .player.p05 {
+    bottom: calc(28% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamB.form451 .player.p06 {
+    bottom: calc(56% - 5px);
+    right: calc(10% - 12px)
+}
+
+.formation .teamB.form451 .player.p07 {
+    bottom: calc(56% - 5px);
+    right: calc(30% - 12px)
+}
+
+.formation .teamB.form451 .player.p08 {
+    bottom: calc(56% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form451 .player.p09 {
+    bottom: calc(56% - 5px);
+    left: calc(30% - 12px)
+}
+
+.formation .teamB.form451 .player.p10 {
+    bottom: calc(56% - 5px);
+    left: calc(10% - 12px)
+}
+
+.formation .teamB.form451 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form523 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form523 .player.p02 {
+    top: calc(28% - 5px);
+    left: calc(10% - 12px)
+}
+
+.formation .teamA.form523 .player.p03 {
+    top: calc(28% - 5px);
+    left: calc(30% - 12px)
+}
+
+.formation .teamA.form523 .player.p04 {
+    top: calc(28% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form523 .player.p05 {
+    top: calc(28% - 5px);
+    right: calc(30% - 12px)
+}
+
+.formation .teamA.form523 .player.p06 {
+    top: calc(28% - 5px);
+    right: calc(10% - 12px)
+}
+
+.formation .teamA.form523 .player.p07 {
+    top: calc(56% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form523 .player.p08 {
+    top: calc(56% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form523 .player.p09 {
+    top: calc(84% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form523 .player.p10 {
+    top: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form523 .player.p11 {
+    top: calc(84% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form523 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form523 .player.p02 {
+    bottom: calc(28% - 5px);
+    right: calc(10% - 12px)
+}
+
+.formation .teamB.form523 .player.p03 {
+    bottom: calc(28% - 5px);
+    right: calc(30% - 12px)
+}
+
+.formation .teamB.form523 .player.p04 {
+    bottom: calc(28% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form523 .player.p05 {
+    bottom: calc(28% - 5px);
+    left: calc(30% - 12px)
+}
+
+.formation .teamB.form523 .player.p06 {
+    bottom: calc(28% - 5px);
+    left: calc(10% - 12px)
+}
+
+.formation .teamB.form523 .player.p07 {
+    bottom: calc(56% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form523 .player.p08 {
+    bottom: calc(56% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form523 .player.p09 {
+    bottom: calc(84% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form523 .player.p10 {
+    bottom: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form523 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form631 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form631 .player.p02 {
+    top: calc(28% - 5px);
+    left: calc(8.33% - 12px)
+}
+
+.formation .teamA.form631 .player.p03 {
+    top: calc(28% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form631 .player.p04 {
+    top: calc(28% - 5px);
+    left: calc(41.66% - 12px)
+}
+
+.formation .teamA.form631 .player.p05 {
+    top: calc(28% - 5px);
+    right: calc(41.66% - 12px)
+}
+
+.formation .teamA.form631 .player.p06 {
+    top: calc(28% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamA.form631 .player.p07 {
+    top: calc(28% - 5px);
+    right: calc(8.33% - 12px)
+}
+
+.formation .teamA.form631 .player.p08 {
+    top: calc(56% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form631 .player.p09 {
+    top: calc(56% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form631 .player.p10 {
+    top: calc(56% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamA.form631 .player.p11 {
+    top: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form631 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form631 .player.p02 {
+    bottom: calc(28% - 5px);
+    right: calc(8.33% - 12px)
+}
+
+.formation .teamB.form631 .player.p03 {
+    bottom: calc(28% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form631 .player.p04 {
+    bottom: calc(28% - 5px);
+    right: calc(41.66% - 12px)
+}
+
+.formation .teamB.form631 .player.p05 {
+    bottom: calc(28% - 5px);
+    left: calc(41.66% - 12px)
+}
+
+.formation .teamB.form631 .player.p06 {
+    bottom: calc(28% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamB.form631 .player.p07 {
+    bottom: calc(28% - 5px);
+    left: calc(8.33% - 12px)
+}
+
+.formation .teamB.form631 .player.p08 {
+    bottom: calc(56% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form631 .player.p09 {
+    bottom: calc(56% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form631 .player.p10 {
+    bottom: calc(56% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamB.form631 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form361 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form361 .player.p02 {
+    top: calc(28% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form361 .player.p03 {
+    top: calc(28% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form361 .player.p04 {
+    top: calc(28% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamA.form361 .player.p05 {
+    top: calc(56% - 5px);
+    left: calc(8.33% - 12px)
+}
+
+.formation .teamA.form361 .player.p06 {
+    top: calc(56% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form361 .player.p07 {
+    top: calc(56% - 5px);
+    left: calc(41.66% - 12px)
+}
+
+.formation .teamA.form361 .player.p08 {
+    top: calc(56% - 5px);
+    right: calc(41.66% - 12px)
+}
+
+.formation .teamA.form361 .player.p09 {
+    top: calc(56% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamA.form361 .player.p10 {
+    top: calc(56% - 5px);
+    right: calc(8.33% - 12px)
+}
+
+.formation .teamA.form361 .player.p11 {
+    top: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form361 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form361 .player.p02 {
+    bottom: calc(28% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form361 .player.p03 {
+    bottom: calc(28% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form361 .player.p04 {
+    bottom: calc(28% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamB.form361 .player.p05 {
+    bottom: calc(56% - 5px);
+    right: calc(8.33% - 12px)
+}
+
+.formation .teamB.form361 .player.p06 {
+    bottom: calc(56% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form361 .player.p07 {
+    bottom: calc(56% - 5px);
+    right: calc(41.66% - 12px)
+}
+
+.formation .teamB.form361 .player.p08 {
+    bottom: calc(56% - 5px);
+    left: calc(41.66% - 12px)
+}
+
+.formation .teamB.form361 .player.p09 {
+    bottom: calc(56% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamB.form361 .player.p10 {
+    bottom: calc(56% - 5px);
+    left: calc(8.33% - 12px)
+}
+
+.formation .teamB.form361 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form4141 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form4141 .player.p02 {
+    top: calc(21% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamA.form4141 .player.p03 {
+    top: calc(21% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4141 .player.p04 {
+    top: calc(21% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4141 .player.p05 {
+    top: calc(21% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamA.form4141 .player.p06 {
+    top: calc(42% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form4141 .player.p07 {
+    top: calc(63% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamA.form4141 .player.p08 {
+    top: calc(63% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4141 .player.p09 {
+    top: calc(63% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4141 .player.p10 {
+    top: calc(63% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamA.form4141 .player.p11 {
+    top: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form4141 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form4141 .player.p02 {
+    top: calc(21% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamB.form4141 .player.p03 {
+    top: calc(21% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4141 .player.p04 {
+    top: calc(21% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4141 .player.p05 {
+    top: calc(21% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamB.form4141 .player.p06 {
+    top: calc(42% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form4141 .player.p07 {
+    top: calc(63% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamB.form4141 .player.p08 {
+    top: calc(63% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4141 .player.p09 {
+    top: calc(63% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4141 .player.p10 {
+    top: calc(63% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamB.form4141 .player.p11 {
+    top: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form4321 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form4321 .player.p02 {
+    top: calc(21% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamA.form4321 .player.p03 {
+    top: calc(21% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4321 .player.p04 {
+    top: calc(21% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4321 .player.p05 {
+    top: calc(21% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamA.form4321 .player.p06 {
+    top: calc(42% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form4321 .player.p07 {
+    top: calc(42% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form4321 .player.p08 {
+    top: calc(42% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamA.form4321 .player.p09 {
+    top: calc(63% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4321 .player.p10 {
+    top: calc(63% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4321 .player.p11 {
+    top: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form4321 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form4321 .player.p02 {
+    bottom: calc(21% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamB.form4321 .player.p03 {
+    bottom: calc(21% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4321 .player.p04 {
+    bottom: calc(21% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4321 .player.p05 {
+    bottom: calc(21% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamB.form4321 .player.p06 {
+    bottom: calc(42% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form4321 .player.p07 {
+    bottom: calc(42% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form4321 .player.p08 {
+    bottom: calc(42% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamB.form4321 .player.p09 {
+    bottom: calc(63% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4321 .player.p10 {
+    bottom: calc(63% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4321 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form4312 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form4312 .player.p02 {
+    top: calc(21% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamA.form4312 .player.p03 {
+    top: calc(21% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4312 .player.p04 {
+    top: calc(21% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4312 .player.p05 {
+    top: calc(21% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamA.form4312 .player.p06 {
+    top: calc(42% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form4312 .player.p07 {
+    top: calc(42% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form4312 .player.p08 {
+    top: calc(42% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamA.form4312 .player.p09 {
+    top: calc(63% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form4312 .player.p10 {
+    top: calc(84% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4312 .player.p11 {
+    top: calc(84% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4312 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form4312 .player.p02 {
+    bottom: calc(21% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamB.form4312 .player.p03 {
+    bottom: calc(21% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4312 .player.p04 {
+    bottom: calc(21% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4312 .player.p05 {
+    bottom: calc(21% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamB.form4312 .player.p06 {
+    bottom: calc(42% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form4312 .player.p07 {
+    bottom: calc(42% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form4312 .player.p08 {
+    bottom: calc(42% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamB.form4312 .player.p09 {
+    bottom: calc(63% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form4312 .player.p10 {
+    bottom: calc(84% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4312 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4231 .player.p01 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form4231 .player.p02 {
+    top: calc(21% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamA.form4231 .player.p03 {
+    top: calc(21% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4231 .player.p04 {
+    top: calc(21% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4231 .player.p05 {
+    top: calc(21% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamA.form4231 .player.p06 {
+    top: calc(42% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4231 .player.p07 {
+    top: calc(42% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamA.form4231 .player.p08 {
+    top: calc(63% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamA.form4231 .player.p09 {
+    top: calc(63% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamA.form4231 .player.p10 {
+    top: calc(63% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamA.form4231 .player.p11 {
+    top: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form4231 .player.p01 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form4231 .player.p02 {
+    bottom: calc(21% - 5px);
+    right: calc(12.5% - 12px)
+}
+
+.formation .teamB.form4231 .player.p03 {
+    bottom: calc(21% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4231 .player.p04 {
+    bottom: calc(21% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4231 .player.p05 {
+    bottom: calc(21% - 5px);
+    left: calc(12.5% - 12px)
+}
+
+.formation .teamB.form4231 .player.p06 {
+    bottom: calc(42% - 5px);
+    right: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4231 .player.p07 {
+    bottom: calc(42% - 5px);
+    left: calc(37.5% - 12px)
+}
+
+.formation .teamB.form4231 .player.p08 {
+    bottom: calc(63% - 5px);
+    right: calc(25% - 12px)
+}
+
+.formation .teamB.form4231 .player.p09 {
+    bottom: calc(63% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.formation .teamB.form4231 .player.p10 {
+    bottom: calc(63% - 5px);
+    left: calc(25% - 12px)
+}
+
+.formation .teamB.form4231 .player.p11 {
+    bottom: calc(84% - 5px);
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+@media (max-width: 1199px) {
+    .formation {
+        width: 300px;
+        height: 440px
+    }
+
+    .formation .teamA, .formation .teamB {
+        width: 280px;
+        height: 200px
+    }
+}
